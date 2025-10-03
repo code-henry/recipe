@@ -15,6 +15,9 @@
 ## 2. サンプルデータ
 
 `recipes.json` に5つのレシピデータがJSON形式で含まれています。
+
+
+
 各レシピは以下の情報を持っています。
 
 - `id`: レシピの一意なID
@@ -32,6 +35,8 @@
 このプロジェクトのファイル一式をダウンロード後、Webブラウザでlocalhostで起動。レシピデータを追加したり削除したりすることができる機能は、http://127.0.0.1:5500/recipe-manager/index.html で確認することができます。
   
 demo.mp4で動作の様子を確認することができます。
+
+https://github.com/user-attachments/assets/24353938-2a17-485f-8f30-9c4f775bd0d2
 
 ## 2. データ構造 (`recipes.json`)
 

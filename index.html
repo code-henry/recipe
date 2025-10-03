@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レシピ管理アプリケーションv1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>レシピ管理アプリケーションv1</h1>
+
+    <div class="container">
+        <!-- Part 1 & 3: Recipe Display -->
+        <div class="recipe-section">
+            <h2>レシピ一覧</h2>
+            <div class="controls">
+                <span>並び替え:</span>
+                <button id="sort-id-asc">ID (昇順)</button>
+                <button id="sort-name-asc">名前 (昇順)</button>
+                <button id="sort-calories-asc">カロリー (昇順)</button>
+                <button id="sort-cookingTime-asc">調理時間 (昇順)</button>
+            </div>
+            <div id="recipe-list" class="recipe-list-container"></div>
+        </div>
+
+        <!-- Part 2: Knapsack Problem -->
+        <div class="knapsack-section">
+            <h2>献立提案 (ナップサック問題)</h2>
+            <p>カロリーと調理時間の上限内で、タンパク質を最大化するレシピの組み合わせを見つけます。</p>
+            <form id="knapsack-form">
+                <div>
+                    <label for="maxCalories">カロリー上限 (kcal):</label>
+                    <input type="number" id="maxCalories" value="1000" required>
+                </div>
+                <div>
+                    <label for="maxCookingTime">調理時間上限 (分):</label>
+                    <input type="number" id="maxCookingTime" value="60" required>
+                </div>
+                <button type="submit">献立を計算</button>
+            </form>
+            <div id="knapsack-result" class="knapsack-result-container"></div>
+        </div>
+    </div>
+
+    <script src="algorithms.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>

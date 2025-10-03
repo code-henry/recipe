@@ -1,0 +1,237 @@
+[
+  {
+    "id": 1,
+    "name": "チキンカレー",
+    "description": "スパイスから作る本格的なチキンカレーです。",
+    "servings": 4,
+    "cookingTime": 45,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "玉ねぎ",
+        "amount": 2,
+        "unit": "個"
+      },
+      {
+        "name": "トマト缶",
+        "amount": 1,
+        "unit": "缶"
+      },
+      {
+        "name": "にんにく",
+        "amount": 1,
+        "unit": "片"
+      },
+      {
+        "name": "しょうが",
+        "amount": 1,
+        "unit": "片"
+      },
+      {
+        "name": "カレー粉",
+        "amount": 3,
+        "unit": "大さじ"
+      }
+    ],
+    "steps": [
+      "玉ねぎをみじん切りにし、飴色になるまで炒める。",
+      "鶏肉を加えて表面に焼き色をつける。",
+      "トマト缶、すりおろしたにんにくとしょうが、カレー粉を加えて煮込む。",
+      "塩で味を調えて完成。"
+    ],
+    "category": "主菜",
+    "nutrition": {
+      "calories": 600,
+      "protein": 40,
+      "fat": 35,
+      "carbohydrates": 30
+    }
+  },
+  {
+    "id": 2,
+    "name": "シーザーサラダ",
+    "description": "クルトンとパルメザンチーズがおいしい定番サラダ。",
+    "servings": 2,
+    "cookingTime": 15,
+    "ingredients": [
+      {
+        "name": "ロメインレタス",
+        "amount": 1,
+        "unit": "株"
+      },
+      {
+        "name": "クルトン",
+        "amount": null,
+        "unit": "適量"
+      },
+      {
+        "name": "パルメザンチーズ",
+        "amount": 3,
+        "unit": "大さじ"
+      },
+      {
+        "name": "シーザードレッシング",
+        "amount": null,
+        "unit": "適量"
+      }
+    ],
+    "steps": [
+      "ロメインレタスを洗い、食べやすい大きさにちぎる。",
+      "器に盛り付け、クルトンとパルメザンチーズを散らす。",
+      "シーザードレッシングをかけて完成。"
+    ],
+    "category": "副菜",
+    "nutrition": {
+      "calories": 250,
+      "protein": 8,
+      "fat": 20,
+      "carbohydrates": 10
+    }
+  },
+  {
+    "id": 3,
+    "name": "カルボナーラ",
+    "description": "生クリームを使わない本場のカルボナーラ。",
+    "servings": 2,
+    "cookingTime": 20,
+    "ingredients": [
+      {
+        "name": "スパゲッティ",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "パンチェッタ",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "卵黄",
+        "amount": 4,
+        "unit": "個分"
+      },
+      {
+        "name": "ペコリーノ・ロマーノ",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "黒胡椒",
+        "amount": null,
+        "unit": "たっぷり"
+      }
+    ],
+    "steps": [
+      "パンチェッタを炒め、脂を出す。",
+      "スパゲッティを茹でる。",
+      "ボウルに卵黄とすりおろしたチーズを混ぜておく。",
+      "茹で上がったパスタとパンチェッタをボウルに加え、素早く混ぜる。",
+      "黒胡椒をたっぷりかけて完成。"
+    ],
+    "category": "主食",
+    "nutrition": {
+      "calories": 750,
+      "protein": 30,
+      "fat": 45,
+      "carbohydrates": 55
+    }
+  },
+  {
+    "id": 4,
+    "name": "わかめと豆腐の味噌汁",
+    "description": "日本の食卓に欠かせない、シンプルな味噌汁です。",
+    "servings": 4,
+    "cookingTime": 10,
+    "ingredients": [
+      {
+        "name": "だし汁",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "豆腐",
+        "amount": 1,
+        "unit": "丁"
+      },
+      {
+        "name": "乾燥わかめ",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "味噌",
+        "amount": 4,
+        "unit": "大さじ"
+      }
+    ],
+    "steps": [
+      "だし汁を温め、豆腐と戻したわかめを入れる。",
+      "沸騰直前で火を弱め、味噌を溶き入れる。",
+      "お椀に注いで完成。"
+    ],
+    "category": "汁物",
+    "nutrition": {
+      "calories": 80,
+      "protein": 6,
+      "fat": 3,
+      "carbohydrates": 7
+    }
+  },
+  {
+    "id": 5,
+    "name": "ティラミス",
+    "description": "コーヒーの香りが豊かな、イタリアンの定番デザート。",
+    "servings": 6,
+    "cookingTime": 25,
+    "ingredients": [
+      {
+        "name": "マスカルポーネチーズ",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "卵",
+        "amount": 3,
+        "unit": "個"
+      },
+      {
+        "name": "砂糖",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "サヴォイアルディ",
+        "amount": 24,
+        "unit": "本"
+      },
+      {
+        "name": "濃いコーヒー",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "ココアパウダー",
+        "amount": null,
+        "unit": "適量"
+      }
+    ],
+    "steps": [
+      "卵黄と砂糖を白っぽくなるまで混ぜ、マスカルポーネを加える。",
+      "卵白を固く泡立て、マスカルポーネのクリームとさっくり混ぜ合わせる。",
+      "サヴォイアルディをコーヒーに浸し、器に並べる。",
+      "クリームとサヴォイアルディを交互に重ね、冷蔵庫で冷やす。",
+      "食べる直前にココアパウダーを振って完成。"
+    ],
+    "category": "デザート",
+    "nutrition": {
+      "calories": 450,
+      "protein": 10,
+      "fat": 30,
+      "carbohydrates": 35
+    }
+  }
+]
